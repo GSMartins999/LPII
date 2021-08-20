@@ -1,0 +1,4 @@
+Adenina (A) - também nomeada como 9H-purin-6-amine (nomenclatura IUPAC) e 6-aminopurine, essa base possui fórmula molecular C5H5N5 e compõem o DNA, (pareando-se com a tinina) e o RNA (pareando-se com a uracila)
+Guanina (G) - também nomeada como 2-amino-1H-purin-6(9H)-one (nomenclatura IUPAC), 2-amino-6-hydroxypurine e 2-aminohypoxanthine, essa substância apresenta  fórmula molecular C5H5N5O e está presente tanto no DNA quanto no RNA, sempre ligada à citosina. 
+Citosina (C) - também nomeada como 4-aminopyrimidin-2(1H)-one (nomenclatura IUPAC) e 4-amino-1H-pyrimidine-2-one, essa base é cristalina, possui fórmula molecular C4H5N3O e se combina com a guanina tanto no DNA quanto no RNA. 
+Timina (T) - também nomeada como 5-methylpyrimidine-2,4(1H,3H)-dione (nomenclatura IUPAC) e 5-metil-uracil, essa base é composta por substâncias que dão origem a uma molécula em único anel. Sua fórmula molecular é C5H6N2O2.
