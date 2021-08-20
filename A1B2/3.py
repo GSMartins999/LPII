@@ -16,18 +16,18 @@ while i < len(recebevar):
 
     x = recebevar[i]
 
-    y1 = x.replace("G","c")
+    v1 = x.replace("G","c")
 
-    y2 = y1.replace("C","g")
+    v2 = v1.replace("C","g")
 
-    y3 = y2.replace("A","u")
+    v3 = v2.replace("A","u")
 
-    y4 = y3.replace("T","a")
+    v4 = v3.replace("T","a")
 
     print('\n') 
 
     print(("Linha"),(i+1),("original: "),(x))
 
-    print(("Escreva a linha"),(i+1),(":"),(y4.upper()))
+    print(("Escreva a linha"),(i+1),(":"),(v4.upper()))
     
     i = i + 1

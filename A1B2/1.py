@@ -2,7 +2,7 @@
 #basesnitrogenadas de uma fita de DNA. Calcule quantas vezes cada base aparece em cada string 
 # lida e imprima osvalores.
 
-texto = str(input("Digite o texto : ")) .upper()
+texto = str(input("Digite o texto : ")) .upper() 
 print("Analisando...")
 print("A base nitrogenada Citosina apareceu {} vezes no texto." . format(texto.count('CITOSINA')))
 print("A base nitrogenada Timina apareceu {} vezes no texto. " . format(texto.count('TIMINA')))
