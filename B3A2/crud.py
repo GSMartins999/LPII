@@ -74,4 +74,4 @@ def delete():
 
     atividade = session.query(Atividade).get(2)
     session.delete(atividade)
-    session.commit()
+    session.commit()  

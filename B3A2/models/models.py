@@ -63,9 +63,9 @@ class Comentario(Base):
     id = Column(Integer, Sequence('publica_id_seq'), primary_key=True)
     comentario = Column(String(255), nullable=True)
 
-    usuario_id = Column(Integer, ForeignKey('usuario.id'))   
+    usuario_id = Column(Integer, ForeignKey('usuario.id'))     
     usuario = relationship("Usuario", backref="Comentario")
-
+   
     atividade_id = Column(Integer, ForeignKey('atividade.id'))   
     atividade = relationship("Atividade", backref="Comentario")  
    

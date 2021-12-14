@@ -15,3 +15,4 @@ curtida.create(engine, checkfirst=True)
 comentario = Comentario.__table__
 comentario.create(engine, checkfirst=True)
 
+   
