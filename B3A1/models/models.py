@@ -37,15 +37,6 @@ class Atividade(Base):
     def __repr__(self):
         return f'Atividade {self.atividade}'
 
-class Comentario(Base):
-
-    __tablename__ = 'comentario'
-    id = Column(Integer, Sequence('publica_id_seq'), primary_key=True)
-    comentario = Column(String(255), nullable=True)
-
-    def __repr__(self):
-        return f'Comentario {self.comentario}'
-
 class Curtida(Base):
 
     __tablename__ = 'curtida'
@@ -54,3 +45,12 @@ class Curtida(Base):
 
     def __repr__(self):
         return f'Atividade {self.curtida}'
+
+class Comentario(Base):
+
+    __tablename__ = 'comentario'
+    id = Column(Integer, Sequence('publica_id_seq'), primary_key=True)
+    comentario = Column(String(255), nullable=True)
+
+    def __repr__(self):
+        return f'Comentario {self.comentario}'
