@@ -1,26 +1,23 @@
 from sqlalchemy import *
-from models.models import Usuario, Atividade, Comentario, Curtida
+from models.models import Cliente, Cadastro, Compra, Editora, Livro
 
-<<<<<<< HEAD
-engine = create_engine("mysql+pymysql://root:@localhost/B3A1", echo=True)
-=======
-engine = create_engine("mysql+pymysql://root:@localhost/B3A2", echo=True)
->>>>>>> 5cff2cbf859dc63bb47f51c924a902fa2bb1e872
 
-usuario = Usuario.__table__
-usuario.create(engine, checkfirst=True)
+engine = create_engine("mysql+pymysql://root:@localhost/A3B3", echo=True)
 
-atividade = Atividade.__table__
-atividade.create(engine, checkfirst=True)
+cliente = Cliente.__table__
+cliente.create(engine, checkfirst=True)
 
-curtida = Curtida.__table__
-curtida.create(engine, checkfirst=True)
+cadastro = Cadastro.__table__
+cadastro.create(engine, checkfirst=True)
 
-comentario = Comentario.__table__
-<<<<<<< HEAD
-comentario.create(engine, checkfirst=True)
-=======
-comentario.create(engine, checkfirst=True)
+editora = Editora.__table__
+editora.create(engine, checkfirst=True)
+
+livro = Livro.__table__
+livro.create(engine, checkfirst=True)
+
+compra = Compra.__table__
+compra.create(engine, checkfirst=True)
 
    
->>>>>>> 5cff2cbf859dc63bb47f51c924a902fa2bb1e872
+
