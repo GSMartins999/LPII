@@ -1,7 +1,7 @@
 from sqlalchemy import *
 from models.models import Usuario, Atividade, Comentario, Curtida
 
-engine = create_engine("mysql+pymysql://root:@localhost/B3A1", echo=True)
+engine = create_engine("mysql+pymysql://root:@localhost/B3A2", echo=True)
 
 usuario = Usuario.__table__
 usuario.create(engine, checkfirst=True)
