@@ -7,7 +7,7 @@ engine = create_engine("mysql+pymysql://root:@localhost/A3B3", echo=True)
 cliente = Cliente.__table__
 cliente.create(engine, checkfirst=True)
 
-cadastro = Cadastro.__table__ 
+cadastro = Cadastro.__table__
 cadastro.create(engine, checkfirst=True)
 
 editora = Editora.__table__

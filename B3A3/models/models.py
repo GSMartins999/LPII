@@ -7,7 +7,7 @@ Base = declarative_base()
 
 
 class Cliente(Base):
-    __tablename__ = 'cliente'  
+    __tablename__ = 'cliente'
 
     id = Column(Integer, Sequence('user_id_seq'), primary_key=True)
     nome = Column(String(255), unique=True, nullable=False)
